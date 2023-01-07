@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3516D372-AF5A-449B-ABE7-76F7C99E8436}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{3516D372-AF5A-449B-ABE7-76F7C99E8436}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="WU_Ambiance" ID="{4BFFC550-69EF-4156-9968-2FB0C7D57FD9}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_MCharacter" ID="{42ECADDD-9863-4625-B67C-2C2D8988309F}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_MusicDesign" ID="{A91E14FF-CA73-4CE6-89C2-8470BEB763C9}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_Props" ID="{19945FF0-899A-47DA-B8E2-FAC31F59D4D3}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_NPC" ID="{15398575-E2C0-4CEB-B2AC-E44C3A290E6E}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

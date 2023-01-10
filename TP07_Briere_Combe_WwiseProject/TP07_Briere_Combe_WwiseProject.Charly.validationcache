@@ -2,7 +2,8 @@
 <ValidationCache Version="1" SchemaVersion="110">
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1673112275" DateHigh="0"/>
-	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\TP07_Briere_Combe_WwiseProject.wproj" DateLow="1673112299" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\TP07_Briere_Combe_WwiseProject.wproj" DateLow="1673359625" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\TP07_Briere_Combe_WwiseProject.Charly.wsettings" DateLow="1673359653" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\States\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
@@ -14,8 +15,9 @@
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1673112275" DateHigh="0"/>
-	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
-	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673112895" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Interactive Music Hierarchy\Musique Combat.wwu" DateLow="1673359625" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1673359625" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Events\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Effects\Factory Effects.wwu" DateLow="1673109847" DateHigh="0"/>
@@ -23,8 +25,13 @@
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1673112275" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1673109847" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1673112275" DateHigh="0"/>
-	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1673112275" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1673112465" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
 	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1673112275" DateHigh="0"/>
-	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673112274" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Actor-Mixer Hierarchy\WU_Props.wwu" DateLow="1673112822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Actor-Mixer Hierarchy\WU_NPC.wwu" DateLow="1673112822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Actor-Mixer Hierarchy\WU_MusicDesign.wwu" DateLow="1673112822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Actor-Mixer Hierarchy\WU_MCharacter.wwu" DateLow="1673112822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Actor-Mixer Hierarchy\WU_Ambiance.wwu" DateLow="1673112822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673112822" DateHigh="0"/>
 </ValidationCache>

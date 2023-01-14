@@ -1,6 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Level0_Events" ID="{9AF8087D-FCA6-4896-AC34-3B7E75A2C71C}" ShortID="989642327">
+					<ChildrenList>
+						<Event Name="Play_Chomperlvl0" ID="{ED2820B4-F09D-428F-9F15-ABC7F570CBE4}">
+							<ChildrenList>
+								<Action Name="" ID="{6096FD33-5F95-4A74-9B48-8D2C81F5E8D0}" ShortID="996882932">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LP_Chomper_Start_01_L" ID="{072D35EC-AB44-4E71-890A-DEC2A3D5BF09}" WorkUnitID="{15398575-E2C0-4CEB-B2AC-E44C3A290E6E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_chomperlvl0" ID="{3C4C536F-6281-4A4C-99B9-34938AC3B793}">
+							<ChildrenList>
+								<Action Name="" ID="{359801AF-E9F1-4E11-B17D-83C1F96AAD12}" ShortID="501358585">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LP_Chomper_Start_01_L" ID="{072D35EC-AB44-4E71-890A-DEC2A3D5BF09}" WorkUnitID="{15398575-E2C0-4CEB-B2AC-E44C3A290E6E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amblvl0" ID="{A5D70928-039C-4437-A33E-08F624C3DC14}">
+							<ChildrenList>
+								<Action Name="" ID="{A7BDAC95-2EEB-4E10-86CE-05431AC50EE9}" ShortID="899978666">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Start_01" ID="{6763B8CE-7424-4031-B556-B5ACBC8CE6DB}" WorkUnitID="{4BFFC550-69EF-4156-9968-2FB0C7D57FD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Amblvl0" ID="{B5D7E815-B3C2-4CF1-BD93-9E9C7660008A}">
+							<ChildrenList>
+								<Action Name="" ID="{D25C9F94-BE99-41BC-8A2B-341414944206}" ShortID="724949883">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Start_01" ID="{6763B8CE-7424-4031-B556-B5ACBC8CE6DB}" WorkUnitID="{4BFFC550-69EF-4156-9968-2FB0C7D57FD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_LakeShore" ID="{329CE0B0-7990-46DF-9FA5-CEB3F66CA431}">
+							<ChildrenList>
+								<Action Name="" ID="{659F490E-128C-4771-ACDE-9B3B79D8ED3C}" ShortID="266295554">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_LakeShore_Stereo_01" ID="{8F07CFBB-FF13-4962-9B72-AEB846543E5E}" WorkUnitID="{4BFFC550-69EF-4156-9968-2FB0C7D57FD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_LakeShorelvl0" ID="{D717393B-6092-471B-B6F0-2B23597662CA}">
+							<ChildrenList>
+								<Action Name="" ID="{34224C56-8C59-4E1F-9C1C-A8946567F39D}" ShortID="968277930">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_LakeShore_Stereo_01" ID="{8F07CFBB-FF13-4962-9B72-AEB846543E5E}" WorkUnitID="{4BFFC550-69EF-4156-9968-2FB0C7D57FD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Level1_Events" ID="{2A3C9873-DD80-4535-A3A1-F93ABB5C1EDF}" ShortID="719699591">
+					<ChildrenList>
+						<Event Name="Play_SpaceshipINT" ID="{50030E7F-A899-4B6B-8671-0E71274AA743}">
+							<ChildrenList>
+								<Action Name="" ID="{D9B74E20-79F2-4413-8485-0233FB4F8F1A}" ShortID="265507599">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_SpaceShip_Interior_01" ID="{E52A7AF0-1289-4952-8DE8-7BAF5A0594B8}" WorkUnitID="{19945FF0-899A-47DA-B8E2-FAC31F59D4D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WeaponPedastal" ID="{FA270F0E-97E5-4368-9399-118CE3AB6112}">
+							<ChildrenList>
+								<Action Name="" ID="{BA7FF024-B905-4143-B38F-1CA65B34CF61}" ShortID="95484195">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_WeaponPedastal_Idle" ID="{8DE076E7-0D7C-4A75-B580-CD4CBC25C624}" WorkUnitID="{19945FF0-899A-47DA-B8E2-FAC31F59D4D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_WeaponPedastal" ID="{8C6010A8-C343-4DC7-B78C-FE123D445BFB}">
+							<ChildrenList>
+								<Action Name="" ID="{F5764321-199A-4209-B51E-E3F398832E46}" ShortID="530115926">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_WeaponPedastal_Idle" ID="{8DE076E7-0D7C-4A75-B580-CD4CBC25C624}" WorkUnitID="{19945FF0-899A-47DA-B8E2-FAC31F59D4D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WeaponTake" ID="{F24E32F8-B28C-499F-AF71-81C6A4441E58}">
+							<ChildrenList>
+								<Action Name="" ID="{780AC004-0913-4089-A575-1AB37A476581}" ShortID="201379469">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFRX_WeaponPedastale_Activation_01" ID="{DF015326-0B13-466F-85DA-5FB3054E640A}" WorkUnitID="{19945FF0-899A-47DA-B8E2-FAC31F59D4D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Footsteps" ID="{9EC54DF7-ECD9-4BAF-8170-0305747D6467}" ShortID="861452648">
+							<ChildrenList>
+								<Event Name="Play_Footsteps" ID="{334A686B-6DA6-4AA7-A449-37A6DC665BBA}">
+									<ChildrenList>
+										<Action Name="" ID="{BB9C4FA0-3D30-44FE-A81B-8E62D097617C}" ShortID="963555974">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SW_Footsteps" ID="{08B743DD-567E-4D20-BF32-FF465EB127C3}" WorkUnitID="{42ECADDD-9863-4625-B67C-2C2D8988309F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

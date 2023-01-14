@@ -32,6 +32,16 @@ namespace Gamekit3D
         public RandomAudioPlayer emoteAttackPlayer;
         public RandomAudioPlayer emoteJumpPlayer;
 
+         [Header("Wwise audio")]
+         //Ligne 263 WeaponTake
+         public AK.Wwise.Event FootstepEvent;           
+         public AK.Wwise.Event JumpEvent;
+         public AK.Wwise.Event LandEvent;
+         public AK.Wwise.Event Play_WeaponTake;
+         public GameObject leftFootEmitter;
+         public GameObject rightFootEmitter;
+         public GameObject WeaponTakeEmitter;
+
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
         protected bool m_IsAnimatorTransitioning;
@@ -58,6 +68,8 @@ namespace Gamekit3D
         protected Checkpoint m_CurrentCheckpoint;      // Reference used to reset Ellen to the correct position on respawn.
         protected bool m_Respawning;                   // Whether Ellen is currently respawning.
         protected float m_IdleTimer;                   // Used to count up to Ellen considering a random idle.
+
+           
 
         // These constants are used to ensure Ellen moves and behaves properly.
         // It is advised you don't change them without fully understanding what they do in code.
@@ -113,10 +125,13 @@ namespace Gamekit3D
         // Called automatically by Unity when the script is first added to a gameobject or is reset from the context menu.
         void Reset()
         {
+            
+            
             meleeWeapon = GetComponentInChildren<MeleeWeapon>();
 
             Transform footStepSource = transform.Find("FootstepSource");
             if (footStepSource != null)
+                //footstepPlayer = footStepSource.GetComponent<RandomAudioPlayer>();
                 footstepPlayer = footStepSource.GetComponent<RandomAudioPlayer>();
 
             Transform hurtSource = transform.Find("HurtSource");
@@ -244,6 +259,8 @@ namespace Gamekit3D
             meleeWeapon.gameObject.SetActive(equip);
             m_InAttack = false;
             m_InCombo = equip;
+           
+            Play_WeaponTake.Post(WeaponTakeEmitter);
 
             if (!equip)
                 m_Animator.ResetTrigger(m_HashMeleeAttack);

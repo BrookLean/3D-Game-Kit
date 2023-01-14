@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	214659438	Stop_Amblvl0			\Default Work Unit\Level0_Events\Stop_Amblvl0	
+	433365364	Play_Amblvl0			\Default Work Unit\Level0_Events\Play_Amblvl0	
+	1008426182	Play_LakeShore			\Default Work Unit\Level0_Events\Play_LakeShore	
+	2856553000	Play_LakeShorelvl0			\Default Work Unit\Level0_Events\Play_LakeShorelvl0	
+	3458574360	Stop_chomperlvl0			\Default Work Unit\Level0_Events\Stop_chomperlvl0	
+	3641147878	Play_Chomperlvl0			\Default Work Unit\Level0_Events\Play_Chomperlvl0	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	902159558	LP_Chomper_Start_01_L	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Windows\SFX\LP_Chomper_Start_01.L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\LP_Chomper_Start_01_L		2035296
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	22226397	AMB_Start_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Windows\SFX\AMB_Start_01_D79FB2B7.wem	22226397.wem	\Actor-Mixer Hierarchy\Default Work Unit\WU_Ambiance\AM_Start\AMB_Start_01	
+	364398669	Amb_LakeShore_Stereo_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Windows\SFX\Amb_LakeShore_Stereo_01_D79FB2B7.wem	364398669.wem	\Actor-Mixer Hierarchy\Default Work Unit\WU_Ambiance\AM_LakeShore\Amb_LakeShore_Stereo_01	
+

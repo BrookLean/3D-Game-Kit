@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CDF0ECA7-ED73-445B-9C42-D399E2CC724A}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{CDF0ECA7-ED73-445B-9C42-D399E2CC724A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CDF0ECA7-ED73-445B-9C42-D399E2CC724A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="LVL0_SB" ID="{76BA98BC-3C4F-4D90-98E1-60A7E0F83602}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Level0_Events" ID="{9AF8087D-FCA6-4896-AC34-3B7E75A2C71C}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="LVL1_SB" ID="{997AAD1F-0C78-4CFF-942F-65A71D273BBD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_WeaponPedastal" ID="{FA270F0E-97E5-4368-9399-118CE3AB6112}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WeaponTake" ID="{F24E32F8-B28C-499F-AF71-81C6A4441E58}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SpaceshipINT" ID="{50030E7F-A899-4B6B-8671-0E71274AA743}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_WeaponPedastal" ID="{8C6010A8-C343-4DC7-B78C-FE123D445BFB}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

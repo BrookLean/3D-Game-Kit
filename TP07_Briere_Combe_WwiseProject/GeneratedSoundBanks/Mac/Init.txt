@@ -1,0 +1,24 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2104316601	FT_state			\Default Work Unit\FT_state	
+
+State	ID	Name	State Group			Notes
+	655016985	Grass_st	FT_state			
+	748895195	None	FT_state			
+	1035711554	Concrete_st	FT_state			
+	1959822517	Mud_st	FT_state			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	60039732	AM_MCharacter			\Default Work Unit\Master Audio Bus\SFX\AM_MCharacter	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	625322076	AM_Props			\Default Work Unit\Master Audio Bus\SFX\AM_Props	
+	878414535	AM_Music			\Default Work Unit\Master Audio Bus\Music\AM_Music	
+	2184259619	AM_NPC			\Default Work Unit\Master Audio Bus\SFX\AM_NPC	
+	2347550354	AM_Ambiance			\Default Work Unit\Master Audio Bus\SFX\AM_Ambiance	
+	3708482179	AM_Voices			\Default Work Unit\Master Audio Bus\SFX\AM_Voices	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

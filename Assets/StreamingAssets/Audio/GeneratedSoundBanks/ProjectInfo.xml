@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="TP07_Briere_Combe_WwiseProject" GUID="{05F82FB4-0560-4663-A815-7922BDA4DA88}" Generator="2022.1.1.8100"/>
+	<CacheRoot>../../../../TP07_Briere_Combe_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{59AB48F4-A32D-4E82-95DD-8D79A52D4F1E}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../TP07_Briere_Combe_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{4A55E2B1-6DD6-463E-B67D-A7A1E4691E65}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../TP07_Briere_Combe_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{43EE0CE4-72FE-4491-B4F0-8DCB0C2FB449}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{44DF3AFE-E4C5-2E42-42DC-B23EC940B80F}</FileHash>
+</ProjectInfo>

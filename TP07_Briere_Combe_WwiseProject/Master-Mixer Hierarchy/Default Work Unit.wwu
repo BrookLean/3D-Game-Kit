@@ -14,41 +14,49 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="AM_Ambiance" ID="{13E081E2-9BD8-4058-BCE9-1A7976858140}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="19"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
+						<Bus Name="SFX" ID="{90878308-4213-49B9-90B3-9BEB2E568368}">
+							<ChildrenList>
+								<Bus Name="AM_Voices" ID="{99E31571-5DFF-41A6-BFC7-B5A66064CB29}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="AM_MCharacter" ID="{213A88A6-CC49-4005-A956-BB458E408534}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="AM_Ambiance" ID="{13E081E2-9BD8-4058-BCE9-1A7976858140}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="AM_NPC" ID="{C63C9C1C-7FF0-487D-976B-348F5588D953}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="AM_Props" ID="{8FFBDD48-972B-47C2-B8EA-5F7F6DCDA635}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="15"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
 						</Bus>
-						<Bus Name="AM_MCharacter" ID="{213A88A6-CC49-4005-A956-BB458E408534}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="4"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="AM_NPC" ID="{C63C9C1C-7FF0-487D-976B-348F5588D953}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="10"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="AM_Voices" ID="{99E31571-5DFF-41A6-BFC7-B5A66064CB29}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="24"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="AM_Music" ID="{AB2C5FA2-88FE-405F-BA5B-8AE44D05D0B5}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="13"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="AM_Props" ID="{8FFBDD48-972B-47C2-B8EA-5F7F6DCDA635}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="15"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
+						<Bus Name="Music" ID="{82516EF7-E0E3-4B81-988F-A008E3679425}">
+							<ChildrenList>
+								<Bus Name="AM_Music" ID="{AB2C5FA2-88FE-405F-BA5B-8AE44D05D0B5}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="13"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

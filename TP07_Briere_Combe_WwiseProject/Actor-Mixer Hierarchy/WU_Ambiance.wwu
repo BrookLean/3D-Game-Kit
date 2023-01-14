@@ -7,17 +7,25 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<ActorMixer Name="AM_Level0" ID="{2D37FD85-55A1-4F98-9E28-949871E96776}" ShortID="785091909">
+				<ActorMixer Name="AM_Start" ID="{2D37FD85-55A1-4F98-9E28-949871E96776}" ShortID="785091909">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+							<ObjectRef Name="AM_Ambiance" ID="{13E081E2-9BD8-4058-BCE9-1A7976858140}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="SC_Level0" ID="{2F4B7A56-9458-49AC-B81A-63C49F24D39C}" ShortID="839257935">
+						<Sound Name="AMB_Start_01" ID="{6763B8CE-7424-4031-B556-B5ACBC8CE6DB}" ShortID="440358265">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
@@ -26,8 +34,67 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
 								</Reference>
 							</ReferenceList>
-							<GroupingInfo/>
-						</SwitchContainer>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Start_01" ID="{1A3371F5-5E53-43E4-BD22-F0D1562DC5A2}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Start_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="22226397"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Start_01" ID="{1A3371F5-5E53-43E4-BD22-F0D1562DC5A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AM_LakeShore" ID="{77481053-88DB-4C44-A4CA-101DF85583F5}" ShortID="815333381">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="LakeShroe_Att" ID="{704ACE7A-3F7D-4C86-901C-77E13E91318D}" WorkUnitID="{54409C5B-D66D-42E2-9165-D5E6FFCF684B}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AM_Ambiance" ID="{13E081E2-9BD8-4058-BCE9-1A7976858140}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Amb_LakeShore_Stereo_01" ID="{8F07CFBB-FF13-4962-9B72-AEB846543E5E}" ShortID="777357341">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_LakeShore_Stereo_01" ID="{F33D5274-8A0B-4876-8258-A24B464D44A8}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_LakeShore_Stereo_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="364398669"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_LakeShore_Stereo_01" ID="{F33D5274-8A0B-4876-8258-A24B464D44A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

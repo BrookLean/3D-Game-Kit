@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="539163994" Type="User" Language="SFX" Hash="{943AEE7A-E82B-770B-6858-B58C4EF34026}">
+			<ShortName>LVL1_SB</ShortName>
+			<Path>LVL1_SB.bnk</Path>
+			<Media>
+				<File Id="154658689" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_SpaceShip_Interior_01.wav</ShortName>
+					<Path>Media/154658689.wem</Path>
+					<CachePath>SFX/AMB_SpaceShip_Interior_01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="517787203" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>SFX_WeaponPedastal_Idle.wav</ShortName>
+					<Path>Media/517787203.wem</Path>
+					<CachePath>SFX/SFX_WeaponPedastal_Idle_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="989786919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFRX_WeaponPedastale_Activation_01.wav</ShortName>
+					<CachePath>SFX/SFRX_WeaponPedastale_Activation_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4211415393" Name="Play_SpaceshipINT" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="154658689"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3228046780" Name="Play_WeaponPedastal" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="517787203"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3155942079" Name="Play_WeaponTake" MaxAttenuation="20" DurationType="OneShot" DurationMin="3.256" DurationMax="3.256">
+					<MediaRefs>
+						<MediaRef Id="989786919"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2914870866" Name="Stop_WeaponPedastal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9C0BC5AA-9D30-9424-0472-7732BEB29117}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="60039732" Name="AM_MCharacter"/>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="625322076" Name="AM_Props"/>
+				<Bus Id="878414535" Name="AM_Music"/>
+				<Bus Id="2184259619" Name="AM_NPC"/>
+				<Bus Id="2347550354" Name="AM_Ambiance"/>
+				<Bus Id="3708482179" Name="AM_Voices"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="2104316601" Name="FT_state">
+					<States>
+						<State Id="655016985" Name="Grass_st"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1035711554" Name="Concrete_st"/>
+						<State Id="1959822517" Name="Mud_st"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2091590449" Type="User" Language="SFX" Hash="{94B9B61F-BCAB-88E6-0DCE-26726C1355FC}">
+			<ShortName>LVL0_SB</ShortName>
+			<Path>LVL0_SB.bnk</Path>
+			<Media>
+				<File Id="22226397" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Start_01.wav</ShortName>
+					<Path>Media/22226397.wem</Path>
+					<CachePath>SFX/AMB_Start_01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="364398669" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_LakeShore_Stereo_01.wav</ShortName>
+					<Path>Media/364398669.wem</Path>
+					<CachePath>SFX/Amb_LakeShore_Stereo_01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="902159558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LP_Chomper_Start_01.L.wav</ShortName>
+					<CachePath>SFX/LP_Chomper_Start_01.L_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="433365364" Name="Play_Amblvl0" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="22226397"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3641147878" Name="Play_Chomperlvl0" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="902159558"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1008426182" Name="Play_LakeShore" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="364398669"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2856553000" Name="Play_LakeShorelvl0" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="364398669"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="214659438" Name="Stop_Amblvl0" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3458574360" Name="Stop_chomperlvl0" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{26E5E2C5-B937-6C47-F248-A81509DD5541}</FileHash>
+</SoundBanksInfo>

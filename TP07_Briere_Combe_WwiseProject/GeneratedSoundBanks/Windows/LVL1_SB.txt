@@ -2,9 +2,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	2914870866	Stop_WeaponPedastal			\Default Work Unit\Level1_Events\Stop_WeaponPedastal	
 	3155942079	Play_WeaponTake			\Default Work Unit\Level1_Events\Play_WeaponTake	
 	3228046780	Play_WeaponPedastal			\Default Work Unit\Level1_Events\Play_WeaponPedastal	
+	4151201399	Play_DestructibleBox			\Default Work Unit\Level1_Events\Play_DestructibleBox	
 	4211415393	Play_SpaceshipINT			\Default Work Unit\Level1_Events\Play_SpaceshipINT	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	155731403	SFX_DestructibleBox_Break_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Windows\SFX\SFX_DestructibleBox_Break_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\DestructibleBox_RC\SFX_DestructibleBox_Break_01		578256
+	241723823	SFX_DestructibleBox_Break_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Windows\SFX\SFX_DestructibleBox_Break_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\DestructibleBox_RC\SFX_DestructibleBox_Break_02		559072
+	282908436	SFX_DestructibleBox_Break_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Windows\SFX\SFX_DestructibleBox_Break_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\DestructibleBox_RC\SFX_DestructibleBox_Break_03		577632
+	293221026	SFX_DestructibleBox_Break_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Windows\SFX\SFX_DestructibleBox_Break_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\DestructibleBox_RC\SFX_DestructibleBox_Break_04		665312
 	989786919	SFRX_WeaponPedastale_Activation_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Windows\SFX\SFRX_WeaponPedastale_Activation_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\AM_WeaponPedastal\SFRX_WeaponPedastale_Activation_01		625248
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes

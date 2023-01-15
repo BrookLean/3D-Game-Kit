@@ -47,6 +47,45 @@
 									</PropertyList>
 								</Bus>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{4EBEF46A-FDE8-4BD3-82AE-A7F18CE60DC7}" ShortID="132904098">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFX_Volume" ID="{7EB4C7FC-614A-4F5E-B565-524CA323F186}" WorkUnitID="{1F12CCBF-A263-41EF-85F5-494A2534B9A0}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{45CCF00E-1B8A-4768-820C-8424D598536E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Bus>
 						<Bus Name="Music" ID="{82516EF7-E0E3-4B81-988F-A008E3679425}">
 							<ChildrenList>

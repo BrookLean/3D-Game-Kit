@@ -7,6 +7,9 @@ State	ID	Name	State Group			Notes
 	1035711554	Concrete_st	FT_state			
 	1959822517	Mud_st	FT_state			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1564184899	SFX_Volume			\Default Work Unit\SFX_Volume	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	60039732	AM_MCharacter			\Default Work Unit\Master Audio Bus\SFX\AM_MCharacter	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	

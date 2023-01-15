@@ -18,7 +18,7 @@ namespace Gamekit3D
         protected Slider m_Slider;
 
 
-        void Awake ()
+        void Awake()
         {
             m_Slider = GetComponent<Slider>();
 

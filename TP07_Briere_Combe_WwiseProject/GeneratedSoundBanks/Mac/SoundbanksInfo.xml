@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="539163994" Type="User" Language="SFX" Hash="{943AEE7A-E82B-770B-6858-B58C4EF34026}">
+		<SoundBank Id="539163994" Type="User" Language="SFX" Hash="{A0231E56-CE7B-D385-A7D7-412A9B2DDBCA}">
 			<ShortName>LVL1_SB</ShortName>
 			<Path>LVL1_SB.bnk</Path>
 			<Media>
@@ -17,6 +17,22 @@
 					<ShortName>AMB_SpaceShip_Interior_01.wav</ShortName>
 					<Path>Media/154658689.wem</Path>
 					<CachePath>SFX/AMB_SpaceShip_Interior_01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="155731403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_DestructibleBox_Break_01.wav</ShortName>
+					<CachePath>SFX/SFX_DestructibleBox_Break_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="241723823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_DestructibleBox_Break_02.wav</ShortName>
+					<CachePath>SFX/SFX_DestructibleBox_Break_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="282908436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_DestructibleBox_Break_03.wav</ShortName>
+					<CachePath>SFX/SFX_DestructibleBox_Break_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="293221026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_DestructibleBox_Break_04.wav</ShortName>
+					<CachePath>SFX/SFX_DestructibleBox_Break_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="517787203" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_WeaponPedastal_Idle.wav</ShortName>
@@ -29,17 +45,25 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4211415393" Name="Play_SpaceshipINT" MaxAttenuation="20" DurationType="Infinite">
+				<Event Id="4151201399" Name="Play_DestructibleBox" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.9113333" DurationMax="3.4646666">
+					<MediaRefs>
+						<MediaRef Id="155731403"/>
+						<MediaRef Id="241723823"/>
+						<MediaRef Id="282908436"/>
+						<MediaRef Id="293221026"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4211415393" Name="Play_SpaceshipINT" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="154658689"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3228046780" Name="Play_WeaponPedastal" MaxAttenuation="20" DurationType="Infinite">
+				<Event Id="3228046780" Name="Play_WeaponPedastal" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="517787203"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3155942079" Name="Play_WeaponTake" MaxAttenuation="20" DurationType="OneShot" DurationMin="3.256" DurationMax="3.256">
+				<Event Id="3155942079" Name="Play_WeaponTake" MaxAttenuation="40" DurationType="OneShot" DurationMin="3.256" DurationMax="3.256">
 					<MediaRefs>
 						<MediaRef Id="989786919"/>
 					</MediaRefs>
@@ -47,7 +71,7 @@
 				<Event Id="2914870866" Name="Stop_WeaponPedastal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9C0BC5AA-9D30-9424-0472-7732BEB29117}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FA785ED2-7F78-677E-E7A7-2263F2A11C56}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -67,6 +91,9 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="1564184899" Name="SFX_Volume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="2104316601" Name="FT_state">
 					<States>
@@ -123,5 +150,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{26E5E2C5-B937-6C47-F248-A81509DD5541}</FileHash>
+	<FileHash>{C3D88018-079A-09E4-7BE6-CA5243E01CA3}</FileHash>
 </SoundBanksInfo>

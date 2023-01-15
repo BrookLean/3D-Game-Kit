@@ -97,6 +97,343 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="AM_amb360" ID="{F587AA93-886B-4167-9E87-878DC95F153A}" ShortID="896476568">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AMB360_att" ID="{6DB4D300-A7AF-47F1-AFDA-5B9F8A2DBDEC}" WorkUnitID="{54409C5B-D66D-42E2-9165-D5E6FFCF684B}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AM_Ambiance" ID="{13E081E2-9BD8-4058-BCE9-1A7976858140}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Fox_RC" ID="{CA2B56DA-234D-4F41-9FC0-1903C48DB966}" ShortID="102853385">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DEF03B0D-B86C-4A46-B959-C526958DB451}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Fox_01" ID="{D9B618DF-2C05-4F40-A0BF-87920487E589}" ShortID="799837042">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Fox_01" ID="{69B2B458-F813-4C75-AF95-E5279B1CA712}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Fox_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="374889815"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Fox_01" ID="{69B2B458-F813-4C75-AF95-E5279B1CA712}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Fox_02" ID="{E80BB68E-59FF-4C25-8428-CB7B3F13DCFB}" ShortID="52333114">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Fox_02" ID="{DFB4D0C9-0073-4841-9EA6-214D481029BF}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Fox_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="122676415"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Fox_02" ID="{DFB4D0C9-0073-4841-9EA6-214D481029BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Fox_03" ID="{97A8C75C-90E1-4A8C-9C36-A6E70FD1463A}" ShortID="810225450">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Fox_03" ID="{2B961B35-A926-4DE5-968A-61C1CD13A724}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Fox_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="803195458"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Fox_03" ID="{2B961B35-A926-4DE5-968A-61C1CD13A724}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Fox_04" ID="{6D02781E-A1D2-459A-8889-074C16EB5D79}" ShortID="235039165">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Fox_04" ID="{A763DAB8-36EE-409B-B03E-AC5BA11760F9}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Fox_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="847316261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Fox_04" ID="{A763DAB8-36EE-409B-B03E-AC5BA11760F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Fox_05" ID="{F6CDA54C-F6E1-42B0-9812-CC0F630C08F5}" ShortID="587338307">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Fox_05" ID="{3C73C339-9F09-40C7-923C-099DED29FD47}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Fox_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="818239629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Fox_05" ID="{3C73C339-9F09-40C7-923C-099DED29FD47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Fox_06" ID="{7A076967-5223-453F-BF6D-5F87DDCBA018}" ShortID="446430557">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Fox_06" ID="{B8453382-84B2-4F03-A844-0B0ACA9997C9}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Fox_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="169391078"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Fox_06" ID="{B8453382-84B2-4F03-A844-0B0ACA9997C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Fox_07" ID="{6FD2183C-CCE3-45F9-96E2-6D7BD8DFBEE4}" ShortID="858529265">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Fox_07" ID="{6B76DA6A-A5EC-4EA2-A7DA-4B1F7B9E2505}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Fox_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="898873567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Fox_07" ID="{6B76DA6A-A5EC-4EA2-A7DA-4B1F7B9E2505}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Alpaca_RC" ID="{FF1F1580-22D2-4404-9427-9646F2CF293F}" ShortID="373420404">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0D88850B-9ABF-41AD-BE29-09B14C977255}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Alpaca_01" ID="{6930F6F9-2A28-4A24-896C-76241E5D4124}" ShortID="89188333">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Alpaca_01" ID="{69817C98-19F4-4080-8191-5D2859F31AC5}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Alpaca_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="473761614"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Alpaca_01" ID="{69817C98-19F4-4080-8191-5D2859F31AC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Alpaca_02" ID="{733CD5CC-1FD5-420F-9F69-563879C28870}" ShortID="89221568">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Alpaca_02" ID="{8FE95294-5733-4443-8CBE-80A3E3D3BC93}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Alpaca_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550271116"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Alpaca_02" ID="{8FE95294-5733-4443-8CBE-80A3E3D3BC93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Alpaca_03" ID="{C2746B9F-CBD0-44C3-A62F-99854DF16B78}" ShortID="588892597">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Alpaca_03" ID="{EA6C21DA-3717-4F65-A5D9-DE63765E36A5}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Alpaca_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="195221261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Alpaca_03" ID="{EA6C21DA-3717-4F65-A5D9-DE63765E36A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Alpaca_04" ID="{3C709F22-1340-4A3E-A288-C0AE89B5A539}" ShortID="589060267">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8560E1BF-28ED-4D87-BE7A-A0A4ECC9175E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Alpaca_04" ID="{DE8A05CD-525F-4450-9FC9-D59A294965EF}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Alpaca_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="149306039"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Alpaca_04" ID="{DE8A05CD-525F-4450-9FC9-D59A294965EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{884948A8-54DD-4E4C-AAD0-F7E9A5FD24C5}">
+							<ChildrenList>
+								<Path2D Name="amb360_Fox" ID="{FEFD7101-8EC4-460E-A588-90495AC5BA85}">
+									<PropertyList>
+										<Property Name="RandomX" Type="Real64" Value="79"/>
+										<Property Name="RandomY" Type="Real64" Value="75"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>-7.10661</XPos>
+											<YPos>72.03392</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

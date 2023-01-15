@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMBLVL0 = 433365364U;
         static const AkUniqueID PLAY_CHOMPERLVL0 = 3641147878U;
+        static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
         static const AkUniqueID PLAY_LAKESHORE = 1008426182U;
         static const AkUniqueID PLAY_LAKESHORELVL0 = 2856553000U;
         static const AkUniqueID PLAY_SPACESHIPINT = 4211415393U;
@@ -41,6 +42,11 @@ namespace AK
         } // namespace FT_STATE
 
     } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID SFX_VOLUME = 1564184899U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

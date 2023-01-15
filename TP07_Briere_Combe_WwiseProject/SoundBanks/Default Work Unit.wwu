@@ -16,6 +16,7 @@
 						<ObjectRef Name="Play_WeaponTake" ID="{F24E32F8-B28C-499F-AF71-81C6A4441E58}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SpaceshipINT" ID="{50030E7F-A899-4B6B-8671-0E71274AA743}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_WeaponPedastal" ID="{8C6010A8-C343-4DC7-B78C-FE123D445BFB}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DestructibleBox" ID="{4BA5EE18-AC9F-4E90-B414-9AE3F06EA4B6}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

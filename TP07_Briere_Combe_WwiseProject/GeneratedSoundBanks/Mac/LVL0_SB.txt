@@ -1,20 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
-	44454150	Play_Close			\Default Work Unit\UI\Play_Close	
 	214659438	Stop_Amblvl0			\Default Work Unit\Level0_Events\Stop_Amblvl0	
 	433365364	Play_Amblvl0			\Default Work Unit\Level0_Events\Play_Amblvl0	
 	1008426182	Play_LakeShore			\Default Work Unit\Level0_Events\Play_LakeShore	
-	1042987450	Play_Select			\Default Work Unit\UI\Play_Select	
-	2281287634	Play_Open			\Default Work Unit\UI\Play_Open	
 	2856553000	Play_LakeShorelvl0			\Default Work Unit\Level0_Events\Play_LakeShorelvl0	
 	3458574360	Stop_chomperlvl0			\Default Work Unit\Level0_Events\Stop_chomperlvl0	
 	3641147878	Play_Chomperlvl0			\Default Work Unit\Level0_Events\Play_Chomperlvl0	
-	4136017490	Play_Confirm			\Default Work Unit\UI\Play_Confirm	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	227223956	UI_Open_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\UI_Open_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_UI\AM_UI\UI_Open_01		73112
-	520593697	UI_Select_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\UI_Select_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_UI\AM_UI\UI_Select_01		18644
-	588525856	UI_Confirm_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\UI_Confirm_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_UI\AM_UI\UI_Confirm_01		23164
-	818255130	UI_Close_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\UI_Close_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_UI\AM_UI\UI_Close_01		59676
 	902159558	LP_Chomper_Start_01_L	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\LP_Chomper_Start_01.L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\LP_Chomper_Start_01_L		2035296
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes

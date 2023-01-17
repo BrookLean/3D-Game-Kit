@@ -32,7 +32,7 @@ namespace Gamekit3D
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
-            AkSoundEngine.RegisterGameObj(gameObject);
+
             m_Directors = FindObjectsOfType<PlayableDirector> ();
         }
 
@@ -43,7 +43,6 @@ namespace Gamekit3D
 #else
 		    Application.Quit();
 #endif
-           
         }
 
         public void ExitPause()

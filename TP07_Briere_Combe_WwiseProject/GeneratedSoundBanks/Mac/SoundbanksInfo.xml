@@ -9,34 +9,10 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="539163994" Type="User" Language="SFX" Hash="{71A2D67F-016C-976A-075C-31BBFC403A76}">
+		<SoundBank Id="539163994" Type="User" Language="SFX" Hash="{A0231E56-CE7B-D385-A7D7-412A9B2DDBCA}">
 			<ShortName>LVL1_SB</ShortName>
 			<Path>LVL1_SB.bnk</Path>
 			<Media>
-				<File Id="10013948" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Evaporate_01.wav</ShortName>
-					<CachePath>SFX/SFX_Evaporate_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="48043507" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FT_Grass_04.wav</ShortName>
-					<CachePath>SFX/FT_Grass_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="92046344" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_09.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_09_10C4C929.wem</CachePath>
-				</File>
-				<File Id="128842238" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_05.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="142223632" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_01.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="152814799" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Idle_03.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Idle_03_10C4C929.wem</CachePath>
-				</File>
 				<File Id="154658689" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_SpaceShip_Interior_01.wav</ShortName>
 					<Path>Media/154658689.wem</Path>
@@ -46,37 +22,9 @@
 					<ShortName>SFX_DestructibleBox_Break_01.wav</ShortName>
 					<CachePath>SFX/SFX_DestructibleBox_Break_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="156527080" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FT_Grass_03.wav</ShortName>
-					<CachePath>SFX/FT_Grass_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="186017109" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Effort_Short_03.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Effort_Short_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="190387799" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Attack_Short_03.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Attack_Short_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="227223956" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Open_01.wav</ShortName>
-					<CachePath>SFX/UI_Open_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="235187176" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_HIT_05.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_HIT_05_10C4C929.wem</CachePath>
-				</File>
 				<File Id="241723823" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_DestructibleBox_Break_02.wav</ShortName>
 					<CachePath>SFX/SFX_DestructibleBox_Break_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="272859655" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Idle_01.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Idle_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="281573117" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_02.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="282908436" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_DestructibleBox_Break_03.wav</ShortName>
@@ -86,251 +34,18 @@
 					<ShortName>SFX_DestructibleBox_Break_04.wav</ShortName>
 					<CachePath>SFX/SFX_DestructibleBox_Break_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="295189038" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Evaporate_04.wav</ShortName>
-					<CachePath>SFX/SFX_Evaporate_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="302256028" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Idle_08.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Idle_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="368735052" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Idle_06.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Idle_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="397444249" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Attack_Short_05.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Attack_Short_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="430726955" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Evaporate_03.wav</ShortName>
-					<CachePath>SFX/SFX_Evaporate_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="434393484" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Idle_07.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Idle_07_10C4C929.wem</CachePath>
-				</File>
-				<File Id="435166237" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_HIT_01.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_HIT_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="441672811" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_Whoosh_05.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_Whoosh_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="453259777" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Attack_Short_06.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Attack_Short_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="496848287" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_HIT_03.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_HIT_03_10C4C929.wem</CachePath>
-				</File>
 				<File Id="517787203" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_WeaponPedastal_Idle.wav</ShortName>
 					<Path>Media/517787203.wem</Path>
 					<CachePath>SFX/SFX_WeaponPedastal_Idle_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="520593697" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Select_01.wav</ShortName>
-					<CachePath>SFX/UI_Select_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="527924841" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_Whoosh_04.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_Whoosh_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="588525856" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Confirm_01.wav</ShortName>
-					<CachePath>SFX/UI_Confirm_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="594340169" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FT_Grass_07.wav</ShortName>
-					<CachePath>SFX/FT_Grass_07_10C4C929.wem</CachePath>
-				</File>
-				<File Id="601809170" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Attack_Short_01.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Attack_Short_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="619669683" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_08.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="652225033" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_03.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="704594151" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Evaporate_02.wav</ShortName>
-					<CachePath>SFX/SFX_Evaporate_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="715745990" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_Whoosh_01.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_Whoosh_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="735728391" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Effort_Short_05.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Effort_Short_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="739639670" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Idle_05.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Idle_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="761726237" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Effort_Short_01.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Effort_Short_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="772229433" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Attack_Short_02.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Attack_Short_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="779918279" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FT_Grass_08.wav</ShortName>
-					<CachePath>SFX/FT_Grass_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="794275541" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FT_Grass_05.wav</ShortName>
-					<CachePath>SFX/FT_Grass_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="795658625" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_HealthCrate_LP.wav</ShortName>
-					<CachePath>SFX/SFX_HealthCrate_LP_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="818255130" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Close_01.wav</ShortName>
-					<CachePath>SFX/UI_Close_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="822965127" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Effort_Short_04.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Effort_Short_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="829268488" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_Whoosh_02.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_Whoosh_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="835041206" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Effort_Short_07.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Effort_Short_07_10C4C929.wem</CachePath>
-				</File>
-				<File Id="844115213" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Effort_Short_02.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Effort_Short_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="863402449" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Idle_04.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Idle_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="866864602" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FT_Grass_02.wav</ShortName>
-					<CachePath>SFX/FT_Grass_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="867143500" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Effort_Short_06.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Effort_Short_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="872557705" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_07.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_07_10C4C929.wem</CachePath>
-				</File>
-				<File Id="888333468" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_06.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="957029386" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_Whoosh_03.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_Whoosh_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="964429632" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_HIT_02.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_HIT_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="970844069" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FT_Grass_06.wav</ShortName>
-					<CachePath>SFX/FT_Grass_06_10C4C929.wem</CachePath>
-				</File>
 				<File Id="989786919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFRX_WeaponPedastale_Activation_01.wav</ShortName>
 					<CachePath>SFX/SFRX_WeaponPedastale_Activation_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1011905487" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Weapon_HIT_04.wav</ShortName>
-					<CachePath>SFX/SFX_Weapon_HIT_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1015101877" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FT_Grass_01.wav</ShortName>
-					<CachePath>SFX/FT_Grass_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1027361318" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_MC_Attack_Short_04.wav</ShortName>
-					<CachePath>SFX/VOX_MC_Attack_Short_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1031526814" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Idle_02.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Idle_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1040857328" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>VOX_Chomper_Death_04.wav</ShortName>
-					<CachePath>SFX/VOX_Chomper_Death_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1044909687" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_HealthCrate_LP2.wav</ShortName>
-					<CachePath>SFX/SFX_HealthCrate_LP2_D79FB2B7.wem</CachePath>
-				</File>
 			</Media>
 			<Events>
-				<Event Id="3817741009" Name="Play_AttackVox" DurationType="OneShot" DurationMin="0.36" DurationMax="0.50133336">
-					<MediaRefs>
-						<MediaRef Id="190387799"/>
-						<MediaRef Id="397444249"/>
-						<MediaRef Id="453259777"/>
-						<MediaRef Id="601809170"/>
-						<MediaRef Id="772229433"/>
-						<MediaRef Id="1027361318"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1130560958" Name="Play_ChomperDeath" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.746875" DurationMax="0.9895625">
-					<MediaRefs>
-						<MediaRef Id="92046344"/>
-						<MediaRef Id="128842238"/>
-						<MediaRef Id="142223632"/>
-						<MediaRef Id="281573117"/>
-						<MediaRef Id="619669683"/>
-						<MediaRef Id="652225033"/>
-						<MediaRef Id="872557705"/>
-						<MediaRef Id="888333468"/>
-						<MediaRef Id="1040857328"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2606975343" Name="Play_ChomperEvaporate" MaxAttenuation="15" DurationType="OneShot" DurationMin="8.821333" DurationMax="9.76">
-					<MediaRefs>
-						<MediaRef Id="10013948"/>
-						<MediaRef Id="295189038"/>
-						<MediaRef Id="430726955"/>
-						<MediaRef Id="704594151"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3373198502" Name="Play_ChomperGrunt" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.0322917" DurationMax="6.9114585">
-					<MediaRefs>
-						<MediaRef Id="152814799"/>
-						<MediaRef Id="272859655"/>
-						<MediaRef Id="302256028"/>
-						<MediaRef Id="368735052"/>
-						<MediaRef Id="434393484"/>
-						<MediaRef Id="739639670"/>
-						<MediaRef Id="863402449"/>
-						<MediaRef Id="1031526814"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="44454150" Name="Play_Close" DurationType="OneShot" DurationMin="0.3103125" DurationMax="0.3103125">
-					<MediaRefs>
-						<MediaRef Id="818255130"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4136017490" Name="Play_Confirm" DurationType="OneShot" DurationMin="0.120145835" DurationMax="0.120145835">
-					<MediaRefs>
-						<MediaRef Id="588525856"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4151201399" Name="Play_DestructibleBox" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.9113333" DurationMax="3.4646666">
+				<Event Id="4151201399" Name="Play_DestructibleBox" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.9113333" DurationMax="3.4646666">
 					<MediaRefs>
 						<MediaRef Id="155731403"/>
 						<MediaRef Id="241723823"/>
@@ -338,58 +53,9 @@
 						<MediaRef Id="293221026"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1460494172" Name="Play_Effort" DurationType="OneShot" DurationMin="0.36533332" DurationMax="0.512">
-					<MediaRefs>
-						<MediaRef Id="186017109"/>
-						<MediaRef Id="735728391"/>
-						<MediaRef Id="761726237"/>
-						<MediaRef Id="822965127"/>
-						<MediaRef Id="835041206"/>
-						<MediaRef Id="844115213"/>
-						<MediaRef Id="867143500"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3854155799" Name="Play_Footsteps" DurationType="OneShot" DurationMin="0.38803858" DurationMax="0.5092035">
-					<MediaRefs>
-						<MediaRef Id="48043507"/>
-						<MediaRef Id="156527080"/>
-						<MediaRef Id="594340169"/>
-						<MediaRef Id="779918279"/>
-						<MediaRef Id="794275541"/>
-						<MediaRef Id="866864602"/>
-						<MediaRef Id="970844069"/>
-						<MediaRef Id="1015101877"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3371779803" Name="Play_FTgrenadier" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1603375197" Name="Play_HealthCrate" MaxAttenuation="20" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="795658625"/>
-						<MediaRef Id="1044909687"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2281287634" Name="Play_Open" DurationType="OneShot" DurationMin="0.38029167" DurationMax="0.38029167">
-					<MediaRefs>
-						<MediaRef Id="227223956"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1042987450" Name="Play_Select" DurationType="OneShot" DurationMin="0.09660417" DurationMax="0.09660417">
-					<MediaRefs>
-						<MediaRef Id="520593697"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="4211415393" Name="Play_SpaceshipINT" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="154658689"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2848865453" Name="Play_WeaponHit" DurationType="OneShot" DurationMin="0.6494167" DurationMax="0.87366664">
-					<MediaRefs>
-						<MediaRef Id="235187176"/>
-						<MediaRef Id="435166237"/>
-						<MediaRef Id="496848287"/>
-						<MediaRef Id="964429632"/>
-						<MediaRef Id="1011905487"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3228046780" Name="Play_WeaponPedastal" MaxAttenuation="40" DurationType="Infinite">
@@ -402,17 +68,6 @@
 						<MediaRef Id="989786919"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3907930205" Name="Play_WhooshBat" DurationType="OneShot" DurationMin="0.5146667" DurationMax="0.87333333">
-					<MediaRefs>
-						<MediaRef Id="441672811"/>
-						<MediaRef Id="527924841"/>
-						<MediaRef Id="715745990"/>
-						<MediaRef Id="829268488"/>
-						<MediaRef Id="957029386"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2064796204" Name="Stop_ChomperGrunt" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1823042719" Name="Stop_HealthCrate" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2914870866" Name="Stop_WeaponPedastal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
@@ -450,7 +105,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2091590449" Type="User" Language="SFX" Hash="{C3F1BEAD-D346-27F1-C60B-D7967D53873C}">
+		<SoundBank Id="2091590449" Type="User" Language="SFX" Hash="{94B9B61F-BCAB-88E6-0DCE-26726C1355FC}">
 			<ShortName>LVL0_SB</ShortName>
 			<Path>LVL0_SB.bnk</Path>
 			<Media>
@@ -459,26 +114,10 @@
 					<Path>Media/22226397.wem</Path>
 					<CachePath>SFX/AMB_Start_01_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="227223956" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Open_01.wav</ShortName>
-					<CachePath>SFX/UI_Open_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="364398669" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Amb_LakeShore_Stereo_01.wav</ShortName>
 					<Path>Media/364398669.wem</Path>
 					<CachePath>SFX/Amb_LakeShore_Stereo_01_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="520593697" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Select_01.wav</ShortName>
-					<CachePath>SFX/UI_Select_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="588525856" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Confirm_01.wav</ShortName>
-					<CachePath>SFX/UI_Confirm_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="818255130" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Close_01.wav</ShortName>
-					<CachePath>SFX/UI_Close_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="902159558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LP_Chomper_Start_01.L.wav</ShortName>
@@ -496,16 +135,6 @@
 						<MediaRef Id="902159558"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="44454150" Name="Play_Close" DurationType="OneShot" DurationMin="0.3103125" DurationMax="0.3103125">
-					<MediaRefs>
-						<MediaRef Id="818255130"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4136017490" Name="Play_Confirm" DurationType="OneShot" DurationMin="0.120145835" DurationMax="0.120145835">
-					<MediaRefs>
-						<MediaRef Id="588525856"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="1008426182" Name="Play_LakeShore" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="364398669"/>
@@ -516,20 +145,10 @@
 						<MediaRef Id="364398669"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2281287634" Name="Play_Open" DurationType="OneShot" DurationMin="0.38029167" DurationMax="0.38029167">
-					<MediaRefs>
-						<MediaRef Id="227223956"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1042987450" Name="Play_Select" DurationType="OneShot" DurationMin="0.09660417" DurationMax="0.09660417">
-					<MediaRefs>
-						<MediaRef Id="520593697"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="214659438" Name="Stop_Amblvl0" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3458574360" Name="Stop_chomperlvl0" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EABB9D4C-C1AA-B918-4516-C62C25C6CC66}</FileHash>
+	<FileHash>{C3D88018-079A-09E4-7BE6-CA5243E01CA3}</FileHash>
 </SoundBanksInfo>

@@ -80,7 +80,6 @@ namespace Gamekit3D
         {
             if (gruntAudio != null)
                 gruntAudio.PlayRandomClip ();
-            AkSoundEngine.PostEvent("Play_ChomperGrunt", gameObject);
         }
 
         public void Spotted()

@@ -68,13 +68,12 @@ namespace Gamekit3D
 
         private void OnEnable()
         {
-             AkSoundEngine.RegisterGameObj(gameObject);
+
         }
 
         //whoever own the weapon is responsible for calling that. Allow to avoid "self harm"
         public void SetOwner(GameObject owner)
         {
-            
             m_Owner = owner;
         }
 
@@ -82,7 +81,6 @@ namespace Gamekit3D
         {
             if (attackAudio != null)
                 attackAudio.PlayRandomClip();
-            AkSoundEngine.PostEvent("Play_WhooshBat", gameObject);
             throwingHit = thowingAttack;
 
             m_InAttack = true;
@@ -180,11 +178,9 @@ namespace Gamekit3D
                 if (!renderer)
                     renderer = other.GetComponentInChildren<Renderer> ();
                 if (renderer)
-                    AkSoundEngine.PostEvent("Play_WeaponHit", gameObject);
-
+                    hitAudio.PlayRandomClip (renderer.sharedMaterial);
                 else
                     hitAudio.PlayRandomClip ();
-                AkSoundEngine.PostEvent("Play_WeaponHit", gameObject);
             }
 
             Damageable.DamageMessage data;

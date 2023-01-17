@@ -1,99 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
-	44454150	Play_Close			\Default Work Unit\UI\Play_Close	
-	1042987450	Play_Select			\Default Work Unit\UI\Play_Select	
-	1130560958	Play_ChomperDeath			\Default Work Unit\Level1_Events\Play_ChomperDeath	
-	1460494172	Play_Effort			\Default Work Unit\Level1_Events\Play_Effort	
-	1603375197	Play_HealthCrate			\Default Work Unit\Level1_Events\Play_HealthCrate	
-	1823042719	Stop_HealthCrate			\Default Work Unit\Level1_Events\Stop_HealthCrate	
-	2064796204	Stop_ChomperGrunt			\Default Work Unit\Level1_Events\Stop_ChomperGrunt	
-	2281287634	Play_Open			\Default Work Unit\UI\Play_Open	
-	2606975343	Play_ChomperEvaporate			\Default Work Unit\Level1_Events\Play_ChomperEvaporate	
-	2848865453	Play_WeaponHit			\Default Work Unit\Level1_Events\Play_WeaponHit	
 	2914870866	Stop_WeaponPedastal			\Default Work Unit\Level1_Events\Stop_WeaponPedastal	
 	3155942079	Play_WeaponTake			\Default Work Unit\Level1_Events\Play_WeaponTake	
 	3228046780	Play_WeaponPedastal			\Default Work Unit\Level1_Events\Play_WeaponPedastal	
-	3371779803	Play_FTgrenadier			\Default Work Unit\Level1_Events\Play_FTgrenadier	
-	3373198502	Play_ChomperGrunt			\Default Work Unit\Level1_Events\Play_ChomperGrunt	
-	3817741009	Play_AttackVox			\Default Work Unit\Level1_Events\Play_AttackVox	
-	3854155799	Play_Footsteps			\Default Work Unit\Level1_Events\Footsteps\Play_Footsteps	
-	3907930205	Play_WhooshBat			\Default Work Unit\Level1_Events\Play_WhooshBat	
-	4136017490	Play_Confirm			\Default Work Unit\UI\Play_Confirm	
 	4151201399	Play_DestructibleBox			\Default Work Unit\Level1_Events\Play_DestructibleBox	
 	4211415393	Play_SpaceshipINT			\Default Work Unit\Level1_Events\Play_SpaceshipINT	
 
-State Group	ID	Name			Wwise Object Path	Notes
-	2104316601	FT_state			\Default Work Unit\FT_state	
-
-State	ID	Name	State Group			Notes
-	655016985	Grass_st	FT_state			
-	748895195	None	FT_state			
-	1035711554	Concrete_st	FT_state			
-	1959822517	Mud_st	FT_state			
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	10013948	SFX_Evaporate_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Evaporate_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperEvaporate\SFX_Evaporate_01		999520
-	48043507	FT_Grass_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\FT_Grass_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Footsteps\SW_Footsteps\FT_WALK_Grass\FT_Grass_04		88800
-	92046344	VOX_Chomper_Death_09	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_09		162008
-	128842238	VOX_Chomper_Death_05	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_05		172900
-	142223632	VOX_Chomper_Death_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_01		157000
-	152814799	VOX_Chomper_Idle_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Idle_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperGrunt\VOX_Chomper_Idle_03		263912
 	155731403	SFX_DestructibleBox_Break_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_DestructibleBox_Break_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\DestructibleBox_RC\SFX_DestructibleBox_Break_01		578256
-	156527080	FT_Grass_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\FT_Grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Footsteps\SW_Footsteps\FT_WALK_Grass\FT_Grass_03		93664
-	186017109	VOX_MC_Effort_Short_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Effort_Short_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Effort_RC\VOX_MC_Effort_Short_03		45408
-	190387799	VOX_MC_Attack_Short_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Attack_Short_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Attack_RC\VOX_MC_Attack_Short_03		34656
-	227223956	UI_Open_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\UI_Open_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_UI\AM_UI\UI_Open_01		73112
-	235187176	SFX_Weapon_HIT_05	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_HIT_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\WeaponrHit\SFX_Weapon_HIT_05		131612
 	241723823	SFX_DestructibleBox_Break_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_DestructibleBox_Break_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\DestructibleBox_RC\SFX_DestructibleBox_Break_02		559072
-	272859655	VOX_Chomper_Idle_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Idle_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperGrunt\VOX_Chomper_Idle_01		663596
-	281573117	VOX_Chomper_Death_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_02		145540
 	282908436	SFX_DestructibleBox_Break_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_DestructibleBox_Break_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\DestructibleBox_RC\SFX_DestructibleBox_Break_03		577632
 	293221026	SFX_DestructibleBox_Break_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_DestructibleBox_Break_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\DestructibleBox_RC\SFX_DestructibleBox_Break_04		665312
-	295189038	SFX_Evaporate_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Evaporate_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperEvaporate\SFX_Evaporate_04		1106016
-	302256028	VOX_Chomper_Idle_08	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Idle_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperGrunt\VOX_Chomper_Idle_08		464656
-	368735052	VOX_Chomper_Idle_06	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Idle_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperGrunt\VOX_Chomper_Idle_06		401264
-	397444249	VOX_MC_Attack_Short_05	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Attack_Short_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Attack_RC\VOX_MC_Attack_Short_05		37216
-	430726955	SFX_Evaporate_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Evaporate_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperEvaporate\SFX_Evaporate_03		1056864
-	434393484	VOX_Chomper_Idle_07	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Idle_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperGrunt\VOX_Chomper_Idle_07		195196
-	435166237	SFX_Weapon_HIT_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_HIT_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\WeaponrHit\SFX_Weapon_HIT_01		127872
-	441672811	SFX_Weapon_Whoosh_05	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_Whoosh_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\Whoosh_Bat\SFX_Weapon_Whoosh_05		112736
-	453259777	VOX_MC_Attack_Short_06	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Attack_Short_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Attack_RC\VOX_MC_Attack_Short_06		39392
-	496848287	SFX_Weapon_HIT_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_HIT_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\WeaponrHit\SFX_Weapon_HIT_03		124784
-	520593697	UI_Select_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\UI_Select_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_UI\AM_UI\UI_Select_01		18644
-	527924841	SFX_Weapon_Whoosh_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_Whoosh_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\Whoosh_Bat\SFX_Weapon_Whoosh_04		167776
-	588525856	UI_Confirm_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\UI_Confirm_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_UI\AM_UI\UI_Confirm_01		23164
-	594340169	FT_Grass_07	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\FT_Grass_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Footsteps\SW_Footsteps\FT_WALK_Grass\FT_Grass_07		84800
-	601809170	VOX_MC_Attack_Short_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Attack_Short_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Attack_RC\VOX_MC_Attack_Short_01		43104
-	619669683	VOX_Chomper_Death_08	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_08		143496
-	652225033	VOX_Chomper_Death_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_03		190092
-	704594151	SFX_Evaporate_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Evaporate_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperEvaporate\SFX_Evaporate_02		925792
-	715745990	SFX_Weapon_Whoosh_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_Whoosh_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\Whoosh_Bat\SFX_Weapon_Whoosh_01		98912
-	735728391	VOX_MC_Effort_Short_05	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Effort_Short_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Effort_RC\VOX_MC_Effort_Short_05		35168
-	739639670	VOX_Chomper_Idle_05	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Idle_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperGrunt\VOX_Chomper_Idle_05		598658
-	761726237	VOX_MC_Effort_Short_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Effort_Short_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Effort_RC\VOX_MC_Effort_Short_01		37856
-	772229433	VOX_MC_Attack_Short_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Attack_Short_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Attack_RC\VOX_MC_Attack_Short_02		48224
-	779918279	FT_Grass_08	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\FT_Grass_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Footsteps\SW_Footsteps\FT_WALK_Grass\FT_Grass_08		87392
-	794275541	FT_Grass_05	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\FT_Grass_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Footsteps\SW_Footsteps\FT_WALK_Grass\FT_Grass_05		91488
-	795658625	SFX_HealthCrate_LP	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_HealthCrate_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\HealthCrate\SFX_HealthCrate_LP		1351776
-	818255130	UI_Close_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\UI_Close_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_UI\AM_UI\UI_Close_01		59676
-	822965127	VOX_MC_Effort_Short_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Effort_Short_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Effort_RC\VOX_MC_Effort_Short_04		39008
-	829268488	SFX_Weapon_Whoosh_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_Whoosh_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\Whoosh_Bat\SFX_Weapon_Whoosh_02		146272
-	835041206	VOX_MC_Effort_Short_07	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Effort_Short_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Effort_RC\VOX_MC_Effort_Short_07		36448
-	844115213	VOX_MC_Effort_Short_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Effort_Short_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Effort_RC\VOX_MC_Effort_Short_02		36960
-	863402449	VOX_Chomper_Idle_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Idle_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperGrunt\VOX_Chomper_Idle_04		329568
-	866864602	FT_Grass_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\FT_Grass_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Footsteps\SW_Footsteps\FT_WALK_Grass\FT_Grass_02		80224
-	867143500	VOX_MC_Effort_Short_06	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Effort_Short_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Effort_RC\VOX_MC_Effort_Short_06		49248
-	872557705	VOX_Chomper_Death_07	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_07		174296
-	888333468	VOX_Chomper_Death_06	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_06		150148
-	957029386	SFX_Weapon_Whoosh_03	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_Whoosh_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\Whoosh_Bat\SFX_Weapon_Whoosh_03		153456
-	964429632	SFX_Weapon_HIT_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_HIT_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\WeaponrHit\SFX_Weapon_HIT_02		138080
-	970844069	FT_Grass_06	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\FT_Grass_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Footsteps\SW_Footsteps\FT_WALK_Grass\FT_Grass_06		88336
 	989786919	SFRX_WeaponPedastale_Activation_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFRX_WeaponPedastale_Activation_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\AM_WeaponPedastal\SFRX_WeaponPedastale_Activation_01		625248
-	1011905487	SFX_Weapon_HIT_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_Weapon_HIT_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Bat\WeaponrHit\SFX_Weapon_HIT_04		167840
-	1015101877	FT_Grass_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\FT_Grass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Footsteps\SW_Footsteps\FT_WALK_Grass\FT_Grass_01		84128
-	1027361318	VOX_MC_Attack_Short_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_MC_Attack_Short_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MCharacter\AM_Voice\Attack_RC\VOX_MC_Attack_Short_04		37456
-	1031526814	VOX_Chomper_Idle_02	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Idle_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperGrunt\VOX_Chomper_Idle_02		312038
-	1040857328	VOX_Chomper_Death_04	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\VOX_Chomper_Death_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_NPC\AM_Chomper\ChomperDeath\VOX_Chomper_Death_04		163796
-	1044909687	SFX_HealthCrate_LP2	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\SFX_HealthCrate_LP2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\HealthCrate\SFX_HealthCrate_LP2		3899488
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	154658689	AMB_SpaceShip_Interior_01	C:\AW_Works\TP07_Briere_Combe\TP07_Briere_Combe_WwiseProject\.cache\Mac\SFX\AMB_SpaceShip_Interior_01_D79FB2B7.wem	154658689.wem	\Actor-Mixer Hierarchy\Default Work Unit\WU_Props\AM_Props\AM_SpaceShip\AMB_SpaceShip_Interior_01	

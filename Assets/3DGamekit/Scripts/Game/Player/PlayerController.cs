@@ -165,11 +165,7 @@ namespace Gamekit3D
 
             s_Instance = this;
         }
-        private void Start()
-        {
-            AkSoundEngine.RegisterGameObj(gameObject);   
 
-        }
         // Called automatically by Unity after Awake whenever the script is enabled. 
         void OnEnable()
         {
@@ -447,7 +443,6 @@ namespace Gamekit3D
                 footstepPlayer.playing = true;
                 footstepPlayer.canPlay = false;
                 footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
-                AkSoundEngine.PostEvent("Play_Footsteps", gameObject);
             }
             else if (footstepPlayer.playing)
             {
@@ -467,7 +462,6 @@ namespace Gamekit3D
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
             {
                 emoteJumpPlayer.PlayRandomClip();
-                AkSoundEngine.PostEvent("Play_Effort", gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
@@ -486,7 +480,6 @@ namespace Gamekit3D
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
             {
                 emoteAttackPlayer.PlayRandomClip();
-                AkSoundEngine.PostEvent("Play_AttackVox", gameObject);
             }
         }
 

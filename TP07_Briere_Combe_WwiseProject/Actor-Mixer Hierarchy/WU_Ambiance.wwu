@@ -8,13 +8,6 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="AM_Start" ID="{2D37FD85-55A1-4F98-9E28-949871E96776}" ShortID="785091909">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-1</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C7FA80E4-AC14-4A94-9AD6-7399297E0035}"/>
@@ -30,11 +23,6 @@
 								<Property Name="IsStreamingEnabled" Type="bool">
 									<ValueList>
 										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -64,11 +52,6 @@
 				<ActorMixer Name="AM_LakeShore" ID="{77481053-88DB-4C44-A4CA-101DF85583F5}" ShortID="815333381">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="CenterPercentage" Type="int32">
-							<ValueList>
-								<Value>45</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

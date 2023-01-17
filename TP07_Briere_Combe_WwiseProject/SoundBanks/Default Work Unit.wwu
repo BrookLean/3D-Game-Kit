@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<SoundBank Name="LVL0_SB" ID="{76BA98BC-3C4F-4D90-98E1-60A7E0F83602}">
 					<ObjectInclusionList>
-						<ObjectRef Name="UI" ID="{274ECEEB-CF47-42A0-8308-0E5065C3496F}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level0_Events" ID="{9AF8087D-FCA6-4896-AC34-3B7E75A2C71C}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -13,22 +12,9 @@
 				</SoundBank>
 				<SoundBank Name="LVL1_SB" ID="{997AAD1F-0C78-4CFF-942F-65A71D273BBD}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_FTgrenadier" ID="{1A0CDD45-FFD6-407B-82D9-77B0C22089E1}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_WhooshBat" ID="{A903A0AC-918E-40F3-A140-9F5F70F4D82D}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Effort" ID="{9F0E9E19-9D3A-419D-BE3A-FAAFF65E3706}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI" ID="{274ECEEB-CF47-42A0-8308-0E5065C3496F}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_AttackVox" ID="{9337127D-6A3E-42A2-8D8A-05E65B3B6561}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_ChomperEvaporate" ID="{8A2BDCEC-987F-42B9-BF6C-AC363A24DDEB}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_ChomperGrunt" ID="{CF0A8FA1-8798-42DF-B458-907E81AEBDCF}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WeaponPedastal" ID="{FA270F0E-97E5-4368-9399-118CE3AB6112}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_WeaponHit" ID="{9788F6D5-FECB-436E-BBCA-7649AFB739D9}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_ChomperGrunt" ID="{BB7671DC-5430-4759-97BD-DDE52D3FB52A}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_HealthCrate" ID="{1618C8A6-C9E5-4832-9662-66755F761BA8}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_ChomperDeath" ID="{F343A6D9-5E76-48C0-AE23-B53174AB6F3C}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WeaponTake" ID="{F24E32F8-B28C-499F-AF71-81C6A4441E58}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Footsteps" ID="{334A686B-6DA6-4AA7-A449-37A6DC665BBA}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SpaceshipINT" ID="{50030E7F-A899-4B6B-8671-0E71274AA743}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_HealthCrate" ID="{0AF8B69F-0E1E-4CF5-B84D-A1FC10C14EF4}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_WeaponPedastal" ID="{8C6010A8-C343-4DC7-B78C-FE123D445BFB}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_DestructibleBox" ID="{4BA5EE18-AC9F-4E90-B414-9AE3F06EA4B6}" WorkUnitID="{DEC0194E-2503-4AF5-A0AB-755C44EC650A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

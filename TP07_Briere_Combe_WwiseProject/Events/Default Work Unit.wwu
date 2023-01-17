@@ -108,6 +108,7 @@
 								<Action Name="" ID="{F5764321-199A-4209-B51E-E3F398832E46}" ShortID="530115926">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -135,7 +136,7 @@
 										<Action Name="" ID="{BB9C4FA0-3D30-44FE-A81B-8E62D097617C}" ShortID="963555974">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SW_Footsteps" ID="{08B743DD-567E-4D20-BF32-FF465EB127C3}" WorkUnitID="{42ECADDD-9863-4625-B67C-2C2D8988309F}"/>
+													<ObjectRef Name="FT_WALK_Grass" ID="{E2276382-06EE-403B-AFAE-E50AC60DDF1D}" WorkUnitID="{42ECADDD-9863-4625-B67C-2C2D8988309F}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -149,6 +150,172 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="DestructibleBox_RC" ID="{F2A02A90-25CF-4F48-9217-69CC9CDC83C5}" WorkUnitID="{19945FF0-899A-47DA-B8E2-FAC31F59D4D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_FTgrenadier" ID="{1A0CDD45-FFD6-407B-82D9-77B0C22089E1}"/>
+						<Event Name="Play_WhooshBat" ID="{A903A0AC-918E-40F3-A140-9F5F70F4D82D}">
+							<ChildrenList>
+								<Action Name="" ID="{32D4B084-98E2-4E5C-8DF0-D45E9831F9A1}" ShortID="462438777">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Whoosh_Bat" ID="{39D6947E-91A6-46E0-AAE4-96CE3CC62CF0}" WorkUnitID="{42ECADDD-9863-4625-B67C-2C2D8988309F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AttackVox" ID="{9337127D-6A3E-42A2-8D8A-05E65B3B6561}">
+							<ChildrenList>
+								<Action Name="" ID="{927DECF1-786A-476D-BE3A-FC10B33A6B12}" ShortID="974291591">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack_RC" ID="{E5EE7B43-324D-4134-9652-626D3F2F1E3C}" WorkUnitID="{42ECADDD-9863-4625-B67C-2C2D8988309F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Effort" ID="{9F0E9E19-9D3A-419D-BE3A-FAAFF65E3706}">
+							<ChildrenList>
+								<Action Name="" ID="{8B20A942-2BD6-4DB4-BBB2-EB22886814DB}" ShortID="437276553">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Effort_RC" ID="{123AA10E-5A0E-4B9C-B28C-7B931260D2C9}" WorkUnitID="{42ECADDD-9863-4625-B67C-2C2D8988309F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_ChomperDeath" ID="{F343A6D9-5E76-48C0-AE23-B53174AB6F3C}">
+							<ChildrenList>
+								<Action Name="" ID="{B0B40D9D-6E7A-4121-99B9-3A604A098B3A}" ShortID="317823769">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ChomperDeath" ID="{66C759A8-C85A-4F7B-B75A-B20BF5C9ADE0}" WorkUnitID="{15398575-E2C0-4CEB-B2AC-E44C3A290E6E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WeaponHit" ID="{9788F6D5-FECB-436E-BBCA-7649AFB739D9}">
+							<ChildrenList>
+								<Action Name="" ID="{42BD7B05-B214-4BC6-813C-1148A2EA0F0E}" ShortID="411701248">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WeaponrHit" ID="{DB9C3681-29AA-4D97-B8B7-ECD0FC8D0846}" WorkUnitID="{42ECADDD-9863-4625-B67C-2C2D8988309F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_ChomperGrunt" ID="{BB7671DC-5430-4759-97BD-DDE52D3FB52A}">
+							<ChildrenList>
+								<Action Name="" ID="{A7E07BC7-DBE8-4FE0-ADC6-2659F1AB15AC}" ShortID="222886479">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ChomperGrunt" ID="{EFD6985F-8800-44B8-B801-382CF828676B}" WorkUnitID="{15398575-E2C0-4CEB-B2AC-E44C3A290E6E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_ChomperGrunt" ID="{CF0A8FA1-8798-42DF-B458-907E81AEBDCF}">
+							<ChildrenList>
+								<Action Name="" ID="{3A331FDE-A7F7-4E5D-837A-E734C4F02A15}" ShortID="1050175479">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ChomperGrunt" ID="{EFD6985F-8800-44B8-B801-382CF828676B}" WorkUnitID="{15398575-E2C0-4CEB-B2AC-E44C3A290E6E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HealthCrate" ID="{1618C8A6-C9E5-4832-9662-66755F761BA8}">
+							<ChildrenList>
+								<Action Name="" ID="{21B2AEBD-65E9-43B9-90CE-3689E3C73746}" ShortID="24884590">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HealthCrate" ID="{49E66F64-B795-4754-9F7C-6C89BC9398D0}" WorkUnitID="{19945FF0-899A-47DA-B8E2-FAC31F59D4D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_HealthCrate" ID="{0AF8B69F-0E1E-4CF5-B84D-A1FC10C14EF4}">
+							<ChildrenList>
+								<Action Name="" ID="{4F74FDA3-33B4-44BB-B229-DC22A603CF82}" ShortID="405887467">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HealthCrate" ID="{49E66F64-B795-4754-9F7C-6C89BC9398D0}" WorkUnitID="{19945FF0-899A-47DA-B8E2-FAC31F59D4D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_ChomperEvaporate" ID="{8A2BDCEC-987F-42B9-BF6C-AC363A24DDEB}">
+							<ChildrenList>
+								<Action Name="" ID="{D87703D2-3216-4318-A7F6-7D21894FE6E1}" ShortID="163700754">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ChomperEvaporate" ID="{7972543E-8AB0-41BC-AA31-F4134F1F4831}" WorkUnitID="{15398575-E2C0-4CEB-B2AC-E44C3A290E6E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{274ECEEB-CF47-42A0-8308-0E5065C3496F}" ShortID="1032915671">
+					<ChildrenList>
+						<Event Name="Play_Select" ID="{02A550AA-36C2-4E2F-9C69-60ABF403C8D1}">
+							<ChildrenList>
+								<Action Name="" ID="{36F62F8D-5B81-49B4-A10C-83417C43E4BA}" ShortID="26201474">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Select_01" ID="{50145EF0-AFCE-4023-B676-4BD25CC82289}" WorkUnitID="{B7216CFE-B8EF-482E-8BCC-05E8D5BE4422}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Open" ID="{2DFF107E-E61E-4BEA-86F3-E8F53476024E}">
+							<ChildrenList>
+								<Action Name="" ID="{6D33B2A4-70E4-4B68-ABF5-CC09452EDE3F}" ShortID="254995894">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Open_01" ID="{E0016D11-8856-4CCC-9011-BF8C0D7CD2F5}" WorkUnitID="{B7216CFE-B8EF-482E-8BCC-05E8D5BE4422}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Close" ID="{F4BF021B-974C-4517-AEE1-5687D6F110A3}">
+							<ChildrenList>
+								<Action Name="" ID="{74C047FD-CEA7-48FF-9219-EB4A44A6575D}" ShortID="241069511">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Close_01" ID="{A47D35C9-C4F6-416C-80A2-735EA1B0AEEC}" WorkUnitID="{B7216CFE-B8EF-482E-8BCC-05E8D5BE4422}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Confirm" ID="{2317CA41-2F78-4717-9DE8-2371BCEF9BDD}">
+							<ChildrenList>
+								<Action Name="" ID="{C0BD8528-E5D0-46DC-B754-ECE85D1EBA55}" ShortID="556898259">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Confirm_01" ID="{C3A2F8F1-31AA-43D2-B93D-8431638FC7B8}" WorkUnitID="{B7216CFE-B8EF-482E-8BCC-05E8D5BE4422}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

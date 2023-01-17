@@ -41,6 +41,7 @@ namespace Gamekit3D
         {
             ResetDamage();
             m_Collider = GetComponent<Collider>();
+            AkSoundEngine.RegisterGameObj (gameObject);
         }
 
         void Update()
@@ -68,8 +69,10 @@ namespace Gamekit3D
         public void SetColliderState(bool enabled)
         {
             m_Collider.enabled = enabled;
-        }
+            
 
+        }
+       
         public void ApplyDamage(DamageMessage data)
         {
             if (currentHitPoints <= 0)

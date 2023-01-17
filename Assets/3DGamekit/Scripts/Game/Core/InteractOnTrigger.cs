@@ -19,11 +19,17 @@ namespace Gamekit3D
             collider = GetComponent<Collider>();
             collider.isTrigger = true;
         }
-
+        private void Start()
+        {
+            AkSoundEngine.RegisterGameObj(gameObject);
+            
+        }
         void OnTriggerEnter(Collider other)
         {
             if (0 != (layers.value & 1 << other.gameObject.layer))
             {
+                AkSoundEngine.PostEvent("Play_WeaponTake", gameObject);
+                AkSoundEngine.PostEvent("Stop_WeaponPedastal", gameObject);
                 ExecuteOnEnter(other);
             }
         }
@@ -48,6 +54,7 @@ namespace Gamekit3D
         protected virtual void ExecuteOnExit(Collider other)
         {
             OnExit.Invoke();
+            
         }
 
         void OnDrawGizmos()

@@ -165,6 +165,8 @@ namespace Gamekit3D
         public void PlayStep()
         {
             footstepAudioPlayer.PlayRandomClip();
+           
+
         }
 
         public void Shoot()
